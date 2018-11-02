@@ -139,7 +139,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Game\Bot.cpp" />
+    <ClCompile Include="GUI\Button.cpp" />
+    <ClCompile Include="GUI\Widget.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="ResourceManager\ResourceHolder.cpp" />
+    <ClCompile Include="States\StateBase.cpp" />
+    <ClCompile Include="States\StatePlaying.cpp" />
+    <ClCompile Include="Util\FileUtil.cpp" />
+    <ClCompile Include="Util\FPSCounter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Game\Bot.h" />
+    <ClInclude Include="Game\Entity.h" />
+    <ClInclude Include="GUI\Button.h" />
+    <ClInclude Include="GUI\Widget.h" />
+    <ClInclude Include="ResourceManager\ResourceHolder.h" />
+    <ClInclude Include="ResourceManager\ResourceManager.h" />
+    <ClInclude Include="States\StateBase.h" />
+    <ClInclude Include="States\StatePlaying.h" />
+    <ClInclude Include="Util\FileUtil.h" />
+    <ClInclude Include="Util\FPSCounter.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
