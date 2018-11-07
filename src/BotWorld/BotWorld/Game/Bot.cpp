@@ -34,5 +34,6 @@ void Bot::fixedUpdate(sf::Time deltaTime)
 
 void Bot::render(sf::RenderTarget& renderer)
 {
+	
 	renderer.draw(*shape);
 }

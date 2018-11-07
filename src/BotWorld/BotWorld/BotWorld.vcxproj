@@ -139,6 +139,32 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AIActionBase.cpp" />
+    <ClCompile Include="AIActor.cpp" />
+    <ClCompile Include="AIBlackboard_Brain.cpp" />
+    <ClCompile Include="AIBlackboard_Global.cpp" />
+    <ClCompile Include="AIConsiderationBase.cpp" />
+    <ClCompile Include="AIConsiderationFactory.cpp" />
+    <ClCompile Include="AIConsiderationSet.cpp" />
+    <ClCompile Include="AIContact.cpp" />
+    <ClCompile Include="AICreationData.cpp" />
+    <ClCompile Include="AIEntityInfo.cpp" />
+    <ClCompile Include="AIFactoryBase.cpp" />
+    <ClCompile Include="AIGlobalManager.cpp" />
+    <ClCompile Include="AIManager.cpp" />
+    <ClCompile Include="AIOptionBase.cpp" />
+    <ClCompile Include="AIOutputManager.cpp" />
+    <ClCompile Include="AIRandomManager.cpp" />
+    <ClCompile Include="AIReasonerBase.cpp" />
+    <ClCompile Include="AIRegionBase.cpp" />
+    <ClCompile Include="AISpecificationManager.cpp" />
+    <ClCompile Include="AIString.cpp" />
+    <ClCompile Include="AITargetBase.cpp" />
+    <ClCompile Include="AIThreat.cpp" />
+    <ClCompile Include="AITimeManager.cpp" />
+    <ClCompile Include="AIVector.cpp" />
+    <ClCompile Include="AIWeightFunctionBase.cpp" />
+    <ClCompile Include="AIWeightValues.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Game\Bot.cpp" />
     <ClCompile Include="GUI\Button.cpp" />
@@ -151,6 +177,33 @@
     <ClCompile Include="Util\FPSCounter.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AIActionBase.h" />
+    <ClInclude Include="AIActor.h" />
+    <ClInclude Include="AIBlackboard_Brain.h" />
+    <ClInclude Include="AIBlackboard_Global.h" />
+    <ClInclude Include="AIConsiderationBase.h" />
+    <ClInclude Include="AIConsiderationFactory.h" />
+    <ClInclude Include="AIConsiderationSet.h" />
+    <ClInclude Include="AIContact.h" />
+    <ClInclude Include="AICreationData.h" />
+    <ClInclude Include="AIEntityInfo.h" />
+    <ClInclude Include="AIFactoryBase.h" />
+    <ClInclude Include="AIGlobalManager.h" />
+    <ClInclude Include="AIManager.h" />
+    <ClInclude Include="AIOptionBase.h" />
+    <ClInclude Include="AIOutputManager.h" />
+    <ClInclude Include="AIRandomManager.h" />
+    <ClInclude Include="AIReasonerBase.h" />
+    <ClInclude Include="AIRegionBase.h" />
+    <ClInclude Include="AISpecificationManager.h" />
+    <ClInclude Include="AIString.h" />
+    <ClInclude Include="AITargetBase.h" />
+    <ClInclude Include="AIThreat.h" />
+    <ClInclude Include="AITimeManager.h" />
+    <ClInclude Include="AIVector.h" />
+    <ClInclude Include="AIWeightFunctionBase.h" />
+    <ClInclude Include="AIWeightValues.h" />
+    <ClInclude Include="ExampleSniper_TakeAShot.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Game\Bot.h" />
     <ClInclude Include="Game\Entity.h" />

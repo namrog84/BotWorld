@@ -43,6 +43,12 @@
     <Filter Include="Source Files\Game">
       <UniqueIdentifier>{134b1210-0116-451b-bdac-da0e7840dff4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\GAIA">
+      <UniqueIdentifier>{2ae83398-f906-4917-afef-d0d2735f42dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GAIA">
+      <UniqueIdentifier>{34a21b4c-95ed-4d00-a47f-6b1ab04a47f8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -74,6 +80,84 @@
     </ClCompile>
     <ClCompile Include="Game\Bot.cpp">
       <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="AIBlackboard_Brain.cpp">
+      <Filter>Source Files\GAIA</Filter>
+    </ClCompile>
+    <ClCompile Include="AIActor.cpp">
+      <Filter>Source Files\GAIA</Filter>
+    </ClCompile>
+    <ClCompile Include="AIContact.cpp">
+      <Filter>Source Files\GAIA</Filter>
+    </ClCompile>
+    <ClCompile Include="AIThreat.cpp">
+      <Filter>Source Files\GAIA</Filter>
+    </ClCompile>
+    <ClCompile Include="AIManager.cpp">
+      <Filter>Source Files\GAIA</Filter>
+    </ClCompile>
+    <ClCompile Include="AISpecificationManager.cpp">
+      <Filter>Source Files\GAIA</Filter>
+    </ClCompile>
+    <ClCompile Include="AIGlobalManager.cpp">
+      <Filter>Source Files\GAIA</Filter>
+    </ClCompile>
+    <ClCompile Include="AIOutputManager.cpp">
+      <Filter>Source Files\GAIA</Filter>
+    </ClCompile>
+    <ClCompile Include="AITimeManager.cpp">
+      <Filter>Source Files\GAIA</Filter>
+    </ClCompile>
+    <ClCompile Include="AIRandomManager.cpp">
+      <Filter>Source Files\GAIA</Filter>
+    </ClCompile>
+    <ClCompile Include="AIConsiderationBase.cpp">
+      <Filter>Source Files\GAIA</Filter>
+    </ClCompile>
+    <ClCompile Include="AIWeightFunctionBase.cpp">
+      <Filter>Source Files\GAIA</Filter>
+    </ClCompile>
+    <ClCompile Include="AIReasonerBase.cpp">
+      <Filter>Source Files\GAIA</Filter>
+    </ClCompile>
+    <ClCompile Include="AIActionBase.cpp">
+      <Filter>Source Files\GAIA</Filter>
+    </ClCompile>
+    <ClCompile Include="AITargetBase.cpp">
+      <Filter>Source Files\GAIA</Filter>
+    </ClCompile>
+    <ClCompile Include="AIConsiderationSet.cpp">
+      <Filter>Source Files\GAIA</Filter>
+    </ClCompile>
+    <ClCompile Include="AIRegionBase.cpp">
+      <Filter>Source Files\GAIA</Filter>
+    </ClCompile>
+    <ClCompile Include="AICreationData.cpp">
+      <Filter>Source Files\GAIA</Filter>
+    </ClCompile>
+    <ClCompile Include="AIVector.cpp">
+      <Filter>Source Files\GAIA</Filter>
+    </ClCompile>
+    <ClCompile Include="AIEntityInfo.cpp">
+      <Filter>Source Files\GAIA</Filter>
+    </ClCompile>
+    <ClCompile Include="AIOptionBase.cpp">
+      <Filter>Source Files\GAIA</Filter>
+    </ClCompile>
+    <ClCompile Include="AIWeightValues.cpp">
+      <Filter>Source Files\GAIA</Filter>
+    </ClCompile>
+    <ClCompile Include="AIString.cpp">
+      <Filter>Source Files\GAIA</Filter>
+    </ClCompile>
+    <ClCompile Include="AIBlackboard_Global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AIConsiderationFactory.cpp">
+      <Filter>Source Files\GAIA</Filter>
+    </ClCompile>
+    <ClCompile Include="AIFactoryBase.cpp">
+      <Filter>Source Files\GAIA</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -109,6 +193,87 @@
     </ClInclude>
     <ClInclude Include="Game\Bot.h">
       <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="AIBlackboard_Brain.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="AIActor.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="AIContact.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="AIThreat.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="AIManager.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="AISpecificationManager.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="AIGlobalManager.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="AIOutputManager.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="AITimeManager.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="AIRandomManager.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="AIConsiderationBase.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="AIWeightFunctionBase.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="AIReasonerBase.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="AIActionBase.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="AITargetBase.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="AIConsiderationSet.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="AIRegionBase.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="AICreationData.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="AIVector.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="AIEntityInfo.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="AIOptionBase.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="AIWeightValues.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="AIString.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="AIBlackboard_Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AIConsiderationFactory.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="AIFactoryBase.h">
+      <Filter>Header Files\GAIA</Filter>
+    </ClInclude>
+    <ClInclude Include="ExampleSniper_TakeAShot.h">
+      <Filter>Header Files\GAIA</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
