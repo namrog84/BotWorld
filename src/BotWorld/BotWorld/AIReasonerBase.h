@@ -19,9 +19,6 @@ public:
     // Load the configuration.
     virtual bool Init(const AICreationData& cd);
 	
-
-
-
     // Used by the picker to add/remove options
     void AddOption(AIOptionBase& option);
     void Clear();

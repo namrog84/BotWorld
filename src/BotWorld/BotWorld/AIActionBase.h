@@ -11,7 +11,8 @@
 // a custom sub reasoner implements AIAction but contains an specific implementation of AIReasonerBase? 
 // 
 
-class AIActionBase {
+class AIActionBase 
+{
 public:
     AIActionBase();
     ~AIActionBase();

@@ -8,6 +8,8 @@
 // May be a circle, rectangle, polygon or other forms of regions
 // So long as some location may be considered inside or outside.
 
+
+
 class AIRegionBase {
 public:
     AIRegionBase();
@@ -25,4 +27,13 @@ public:
 	// Perhaps returns false if there is no room or the region is empty?
     virtual bool GetRandomPos(AIVector& outVal) const = 0;
 
+};
+
+class AICircleRegionBase : public AIRegionBase
+{
+	AICircleRegionBase(const AICreationData & cd) {}
+	// Inherited via AIRegionBase
+	virtual bool Init(const AICreationData & cd) override;
+	virtual bool IsInRegion(const AIVector & pos) const override;
+	virtual bool GetRandomPos(AIVector & outVal) const override;
 };
